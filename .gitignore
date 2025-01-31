@@ -1,0 +1,11 @@
+.venv
+.idea
+__pycache__
+
+kcolorconverter.egg-info/
+_old
+
+dist
+dist/*
+
+
