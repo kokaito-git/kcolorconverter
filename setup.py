@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="kcolorconverter",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
     description=(
         "A utility library for converting colors between formats like RGB, RGBA, "
@@ -20,4 +20,8 @@ setup(
         "Operating System :: MacOS",
         "Operating System :: POSIX :: Linux",
         "Operating System :: Unix",
-    ],)
+    ],
+    install_requires=[
+        "typing-extensions",
+    ]
+)
